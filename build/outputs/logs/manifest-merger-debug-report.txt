@@ -1,0 +1,184 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [com.karumi:dexter:5.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/164f228e91a18171aa9db719d68ae106/AndroidManifest.xml:17:1-32:12
+MERGED from [com.android.support:design:27.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/798cb28703d373a7d148f5b419c00c3b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/9d1116224eb2cf9caf77a8f9d5966b38/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/soumak/.gradle/caches/transforms-2/files-2.1/2ef2e453dcde29918dca732345dec938/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/488b151c59ce1a66204f81b4f90393b3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/62de0be4f82f888af328f64e5d0324cd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/84e343cddf0ccb94fc6b205637f22ae4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/c9a35c922884b9b1caeb6b6b538459b2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/ecfdd3113be0a1db293a76b425209d95/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/a2c9dd53be8725d485e7d6223ae5ed8a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/e70fe8d807be6dd73078178895564423/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/5856d89ccffa4f46d0527238091845c5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/683921e82dac208773fd841c5ce4787d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/632ad0513a4654fb60435ffb487ee147/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/39c29643e75a7d00760a8be34da14a0c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/52b3bb52f95ef8dc98652bac9757ae18/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/0085508bcb375e0cb7affd107160e98f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/66188a442ccd97610f36325d5c644bd0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/899361e669b2d636442fbbd3080ad4d0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/5f9f00ca379e91a37755e4d25904e1fb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/7493f261e59e0bfdbc59c0741e683fb5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/1297b80deafb4c2a3a9c83dbc5d24f1b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/39101a48719d468d594bdf78e01a5617/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/e85cd159e20432d6f40132de51b2b5e0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/29f8970407c1244495b91300dffb4d5c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/f9f9fa9feba535b652d3f5763249adbb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/32999b8964087fffc7f7a3838d4725a3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/d43c1a7ad1f005fa56fbf135a9c37537/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/e6b325edb2bc30247b899a44fb1d0f14/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/ebb174b4eaec892a48a3cf2085ed6abe/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/b74cb27011ce8ab115b8e90b1fe9a060/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/0df0ca51e8dbba9c56938c47776b7e02/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/0ea26c454eb1f843d9804babd9bf2b34/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml
+		INJECTED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml
+		ADDED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml
+		ADDED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:5:5-87
+	android:name
+		ADDED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:5:22-68
+application
+ADDED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:7:5-21:19
+MERGED from [com.karumi:dexter:5.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/164f228e91a18171aa9db719d68ae106/AndroidManifest.xml:26:5-30:19
+MERGED from [com.karumi:dexter:5.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/164f228e91a18171aa9db719d68ae106/AndroidManifest.xml:26:5-30:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/soumak/.gradle/caches/transforms-2/files-2.1/2ef2e453dcde29918dca732345dec938/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/soumak/.gradle/caches/transforms-2/files-2.1/2ef2e453dcde29918dca732345dec938/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/1297b80deafb4c2a3a9c83dbc5d24f1b/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/1297b80deafb4c2a3a9c83dbc5d24f1b/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/39101a48719d468d594bdf78e01a5617/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/39101a48719d468d594bdf78e01a5617/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/1297b80deafb4c2a3a9c83dbc5d24f1b/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:13:9-40
+activity#ESD.project.ChordJams.MainActivity
+ADDED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:14:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml
+INJECTED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml
+MERGED from [com.karumi:dexter:5.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/164f228e91a18171aa9db719d68ae106/AndroidManifest.xml:22:5-24:41
+MERGED from [com.karumi:dexter:5.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/164f228e91a18171aa9db719d68ae106/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:design:27.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/798cb28703d373a7d148f5b419c00c3b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/798cb28703d373a7d148f5b419c00c3b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/9d1116224eb2cf9caf77a8f9d5966b38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/9d1116224eb2cf9caf77a8f9d5966b38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/soumak/.gradle/caches/transforms-2/files-2.1/2ef2e453dcde29918dca732345dec938/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/soumak/.gradle/caches/transforms-2/files-2.1/2ef2e453dcde29918dca732345dec938/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/488b151c59ce1a66204f81b4f90393b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/488b151c59ce1a66204f81b4f90393b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/62de0be4f82f888af328f64e5d0324cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/62de0be4f82f888af328f64e5d0324cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/84e343cddf0ccb94fc6b205637f22ae4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/84e343cddf0ccb94fc6b205637f22ae4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/c9a35c922884b9b1caeb6b6b538459b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/c9a35c922884b9b1caeb6b6b538459b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/ecfdd3113be0a1db293a76b425209d95/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/ecfdd3113be0a1db293a76b425209d95/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/a2c9dd53be8725d485e7d6223ae5ed8a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/a2c9dd53be8725d485e7d6223ae5ed8a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/e70fe8d807be6dd73078178895564423/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/e70fe8d807be6dd73078178895564423/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/5856d89ccffa4f46d0527238091845c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/5856d89ccffa4f46d0527238091845c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/683921e82dac208773fd841c5ce4787d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/683921e82dac208773fd841c5ce4787d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/632ad0513a4654fb60435ffb487ee147/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/632ad0513a4654fb60435ffb487ee147/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/39c29643e75a7d00760a8be34da14a0c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/39c29643e75a7d00760a8be34da14a0c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/52b3bb52f95ef8dc98652bac9757ae18/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/52b3bb52f95ef8dc98652bac9757ae18/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/0085508bcb375e0cb7affd107160e98f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/0085508bcb375e0cb7affd107160e98f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/66188a442ccd97610f36325d5c644bd0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/66188a442ccd97610f36325d5c644bd0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/899361e669b2d636442fbbd3080ad4d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/899361e669b2d636442fbbd3080ad4d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/5f9f00ca379e91a37755e4d25904e1fb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/5f9f00ca379e91a37755e4d25904e1fb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/7493f261e59e0bfdbc59c0741e683fb5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/7493f261e59e0bfdbc59c0741e683fb5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/1297b80deafb4c2a3a9c83dbc5d24f1b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/1297b80deafb4c2a3a9c83dbc5d24f1b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/39101a48719d468d594bdf78e01a5617/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/39101a48719d468d594bdf78e01a5617/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/e85cd159e20432d6f40132de51b2b5e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/e85cd159e20432d6f40132de51b2b5e0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/29f8970407c1244495b91300dffb4d5c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/29f8970407c1244495b91300dffb4d5c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/f9f9fa9feba535b652d3f5763249adbb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/f9f9fa9feba535b652d3f5763249adbb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/32999b8964087fffc7f7a3838d4725a3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/32999b8964087fffc7f7a3838d4725a3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/d43c1a7ad1f005fa56fbf135a9c37537/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/d43c1a7ad1f005fa56fbf135a9c37537/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/e6b325edb2bc30247b899a44fb1d0f14/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/e6b325edb2bc30247b899a44fb1d0f14/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/ebb174b4eaec892a48a3cf2085ed6abe/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/ebb174b4eaec892a48a3cf2085ed6abe/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/b74cb27011ce8ab115b8e90b1fe9a060/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/b74cb27011ce8ab115b8e90b1fe9a060/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/0df0ca51e8dbba9c56938c47776b7e02/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/soumak/.gradle/caches/transforms-2/files-2.1/0df0ca51e8dbba9c56938c47776b7e02/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/0ea26c454eb1f843d9804babd9bf2b34/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/0ea26c454eb1f843d9804babd9bf2b34/AndroidManifest.xml:20:5-44
+INJECTED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml
+INJECTED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml
+		ADDED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml
+		INJECTED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml
+		ADDED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml
+		INJECTED from /home/soumak/AndroidStudioProjects/ChordJams/app/src/main/AndroidManifest.xml
+activity#com.karumi.dexter.DexterActivity
+ADDED from [com.karumi:dexter:5.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/164f228e91a18171aa9db719d68ae106/AndroidManifest.xml:27:9-29:72
+	android:theme
+		ADDED from [com.karumi:dexter:5.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/164f228e91a18171aa9db719d68ae106/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.karumi:dexter:5.0.0] /home/soumak/.gradle/caches/transforms-2/files-2.1/164f228e91a18171aa9db719d68ae106/AndroidManifest.xml:28:13-60

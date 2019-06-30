@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/soumak/AndroidStudioProjects/ChordJams/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/home/soumak/.gradle/caches/transforms-2/files-2.1/9d1116224eb2cf9caf77a8f9d5966b38/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}
