@@ -4,6 +4,7 @@ import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.SettingInjectorService;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Build;
 import android.provider.Settings;
@@ -21,6 +22,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Locale;
 
@@ -39,6 +41,11 @@ public class MainActivity extends AppCompatActivity {
     private Button voiceEnabledBtn;
 
     private String mode = "ON";
+
+    private MediaPlayer myMediaPlayer;
+    private int position;
+    private ArrayList<File> mySongs;
+    private String mSongName;
 
 
     @Override
@@ -63,6 +70,9 @@ public class MainActivity extends AppCompatActivity {
         speechRecognizerIntent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
         speechRecognizerIntent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
         speechRecognizerIntent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.getDefault());
+
+        validateRecieveValuesAndStartPlaying();
+        imageView.setBackgroundResource(R.drawable.logo);
 
 
         speechRecognizer.setRecognitionListener(new RecognitionListener() {
@@ -164,6 +174,32 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+
+    private void validateRecieveValuesAndStartPlaying() {
+
+        if (myMediaPlayer != null) {
+
+            myMediaPlayer.stop();
+            myMediaPlayer.release();
+        }
+
+        Intent intent = getIntent();
+        Bundle bundle = intent.getExtras();
+
+        mySongs = (ArrayList) bundle.getParcelableArrayList("song");
+        mSongName = mySongs.get(position).getName();
+        String songName = intent.getStringExtra("name");
+
+        songNameTxt.setText(songName);
+        songNameTxt.setSelected(true);
+
+        position = bundle.getInt("position", 0);
+        Uri uri = Uri.parse(mySongs.get(position).toString());
+
+        myMediaPlayer = MediaPlayer.create(MainActivity.this, uri);
+        myMediaPlayer.start();
     }
 
 
