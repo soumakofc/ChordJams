@@ -116,7 +116,19 @@ public class MainActivity extends AppCompatActivity {
 
                     keeper = matchesFound.get(0);
 
-                    Toast.makeText(MainActivity.this, "Result = " + keeper, Toast.LENGTH_LONG).show();
+                    if (keeper.equals("pause the song")) {
+
+                        playPauseSong();
+
+                        Toast.makeText(MainActivity.this, "" + keeper, Toast.LENGTH_LONG).show();
+                    }
+
+                    else if (keeper.equals("play the song")) {
+
+                        playPauseSong();
+
+                        Toast.makeText(MainActivity.this, "" + keeper, Toast.LENGTH_LONG).show();
+                    }
                 }
             }
 
@@ -174,6 +186,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+        pausePlayBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                playPauseSong();
+            }
+        });
     }
 
 
@@ -213,6 +233,26 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
+        }
+    }
+
+
+    private void playPauseSong() {
+
+        imageView.setBackgroundResource(R.drawable.four);
+
+        if (myMediaPlayer.isPlaying()) {
+
+            pausePlayBtn.setImageResource(R.drawable.play);
+            myMediaPlayer.pause();
+        }
+
+        else {
+
+            pausePlayBtn.setImageResource(R.drawable.pause);
+            myMediaPlayer.start();
+
+            imageView.setBackgroundResource(R.drawable.five);
         }
     }
 }
