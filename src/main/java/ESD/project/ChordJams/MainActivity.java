@@ -261,6 +261,7 @@ public class MainActivity extends AppCompatActivity {
 
         myMediaPlayer = MediaPlayer.create(MainActivity.this, uri);
         myMediaPlayer.start();
+        myMediaPlayer.setLooping(true);
     }
 
 
@@ -291,9 +292,10 @@ public class MainActivity extends AppCompatActivity {
         else {
 
             pausePlayBtn.setImageResource(R.drawable.pause);
-            myMediaPlayer.start();
-
             imageView.setBackgroundResource(R.drawable.five);
+
+            myMediaPlayer.start();
+            myMediaPlayer.setLooping(true);
         }
     }
 
@@ -313,6 +315,7 @@ public class MainActivity extends AppCompatActivity {
         mSongName = mySongs.get(position).toString();
         songNameTxt.setText(mSongName);
         myMediaPlayer.start();
+        myMediaPlayer.setLooping(true);
 
         imageView.setBackgroundResource(R.drawable.three);
 
@@ -346,6 +349,7 @@ public class MainActivity extends AppCompatActivity {
         mSongName = mySongs.get(position).toString();
         songNameTxt.setText(mSongName);
         myMediaPlayer.start();
+        myMediaPlayer.setLooping(true);
 
         imageView.setBackgroundResource(R.drawable.two);
 

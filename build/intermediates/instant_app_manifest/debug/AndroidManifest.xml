@@ -3,7 +3,7 @@
     package="ESD.project.ChordJams"
     android:targetSandboxVersion="2"
     android:versionCode="1"
-    android:versionName="1.2" >
+    android:versionName="2.0" >
 
     <uses-sdk
         android:minSdkVersion="23"
