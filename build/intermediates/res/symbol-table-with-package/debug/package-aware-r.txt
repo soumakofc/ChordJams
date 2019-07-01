@@ -781,9 +781,13 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable five
+drawable four
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable logo
 drawable navigation_empty_icon
+drawable next
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -796,8 +800,13 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pause
+drawable play
+drawable previous
+drawable three
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable two
 id ALT
 id CTRL
 id FUNCTION
@@ -894,6 +903,8 @@ id line1
 id line3
 id listMode
 id list_item
+id logo
+id lower
 id masked
 id media_actions
 id message
@@ -902,6 +913,7 @@ id mini
 id multiply
 id navigation_header_container
 id never
+id next_btn
 id none
 id normal
 id notification_background
@@ -915,6 +927,8 @@ id parentRelativeLayout
 id parent_matrix
 id percent
 id pin
+id play_pause_btn
+id previous_btn
 id progress_circular
 id progress_horizontal
 id radio
@@ -949,6 +963,7 @@ id smallLabel
 id snackbar_action
 id snackbar_text
 id snap
+id songName
 id songsList
 id spacer
 id split_action_bar
@@ -987,9 +1002,11 @@ id transition_scene_layoutid_cache
 id transition_transform
 id uniform
 id up
+id upper
 id useLogo
 id view_offset_helper
 id visible
+id voice_enabled_btn
 id withText
 id wrap
 id wrap_content

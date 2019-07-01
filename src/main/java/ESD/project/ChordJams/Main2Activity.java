@@ -74,7 +74,7 @@ public class Main2Activity extends AppCompatActivity {
 
             else {
 
-                if (individualFile.getName().endsWith(".mp3")) {
+                if (individualFile.getName().endsWith(".mp3") || individualFile.getName().endsWith(".aac")) {
 
                     arrayList.add(individualFile);
                 }
