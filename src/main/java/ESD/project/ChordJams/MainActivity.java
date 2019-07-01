@@ -319,7 +319,7 @@ public class MainActivity extends AppCompatActivity {
         if (myMediaPlayer.isPlaying()) {
 
             pausePlayBtn.setImageResource(R.drawable.pause);
-            myMediaPlayer.pause();
+           // myMediaPlayer.pause();
         }
 
         else {
@@ -352,7 +352,7 @@ public class MainActivity extends AppCompatActivity {
         if (myMediaPlayer.isPlaying()) {
 
             pausePlayBtn.setImageResource(R.drawable.pause);
-            myMediaPlayer.pause();
+           // myMediaPlayer.pause();
         }
 
         else {
