@@ -9,14 +9,17 @@ This music player is an **AI Music Player** which you can operate through *Voice
 ### Dependency
 Include the library in your build.gradle
 
+'''
 dependencies{
     implementation 'com.karumi:dexter:5.0.0'
 }
+'''
 
 
 ### Single permission
 In this App I used Single permission. For each permission, register a PermissionListener implementation to receive the state of the request:
 
+'''
 Dexter.withActivity(this)
 	.withPermission(Manifest.permission.CAMERA)
 	.withListener(new PermissionListener() {
@@ -24,5 +27,5 @@ Dexter.withActivity(this)
 		@Override public void onPermissionDenied(PermissionDeniedResponse response) {/* ... */}
 		@Override public void onPermissionRationaleShouldBeShown(PermissionRequest permission, PermissionToken token) {/* ... */}
 	}).check();
-
+'''
 
