@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         speechRecognizerIntent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.getDefault());
 
         validateRecieveValuesAndStartPlaying();
-        imageView.setBackgroundResource(R.drawable.logo);
+        imageView.setBackgroundResource(R.drawable.logo1);
 
 
         speechRecognizer.setRecognitionListener(new RecognitionListener() {
