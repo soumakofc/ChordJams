@@ -789,6 +789,7 @@ drawable logo
 drawable logo1
 drawable navigation_empty_icon
 drawable next
+drawable norepeat
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -804,6 +805,7 @@ drawable notify_panel_notification_icon_bg
 drawable pause
 drawable play
 drawable previous
+drawable repeat
 drawable three
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -905,6 +907,7 @@ id line3
 id listMode
 id list_item
 id logo
+id loop
 id lower
 id masked
 id media_actions

@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     private Intent speechRecognizerIntent;
     private String keeper = "";
 
-    private ImageView pausePlayBtn, nextBtn, previousBtn;
+    private ImageView pausePlayBtn, nextBtn, previousBtn, repeatBtn;
     private TextView songNameTxt;
 
     private ImageView imageView;
@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
         pausePlayBtn = findViewById(R.id.play_pause_btn);
         nextBtn = findViewById(R.id.next_btn);
         previousBtn = findViewById(R.id.previous_btn);
+        repeatBtn = findViewById(R.id.loop);
 
         imageView = findViewById(R.id.logo);
         lowerRelativeLayout = findViewById(R.id.lower);
@@ -235,6 +236,22 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+        repeatBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                repeatTheSong();
+            }
+        });
+
+        myMediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+
+                playNextSong();
+            }
+        });
     }
 
 
@@ -261,7 +278,7 @@ public class MainActivity extends AppCompatActivity {
 
         myMediaPlayer = MediaPlayer.create(MainActivity.this, uri);
         myMediaPlayer.start();
-        myMediaPlayer.setLooping(true);
+        //myMediaPlayer.setLooping(true);
     }
 
 
@@ -295,7 +312,25 @@ public class MainActivity extends AppCompatActivity {
             imageView.setBackgroundResource(R.drawable.five);
 
             myMediaPlayer.start();
+           // myMediaPlayer.setLooping(true);
+        }
+    }
+
+
+    private void repeatTheSong() {
+
+        if (myMediaPlayer.isLooping()) {
+
+            repeatBtn.setImageResource(R.drawable.norepeat);
+            myMediaPlayer.setLooping(false);
+            Toast.makeText(MainActivity.this, "Loop off", Toast.LENGTH_SHORT).show();
+        }
+
+        else {
+
+            repeatBtn.setImageResource(R.drawable.repeat);
             myMediaPlayer.setLooping(true);
+            Toast.makeText(MainActivity.this, "Loop on", Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -315,7 +350,7 @@ public class MainActivity extends AppCompatActivity {
         mSongName = mySongs.get(position).toString();
         songNameTxt.setText(mSongName);
         myMediaPlayer.start();
-        myMediaPlayer.setLooping(true);
+        //myMediaPlayer.setLooping(true);
 
         imageView.setBackgroundResource(R.drawable.three);
 
@@ -349,7 +384,7 @@ public class MainActivity extends AppCompatActivity {
         mSongName = mySongs.get(position).toString();
         songNameTxt.setText(mSongName);
         myMediaPlayer.start();
-        myMediaPlayer.setLooping(true);
+        //myMediaPlayer.setLooping(true);
 
         imageView.setBackgroundResource(R.drawable.two);
 

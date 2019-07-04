@@ -68,6 +68,15 @@
             android:layout_height="wrap_content"
             android:src="@drawable/next"
             android:layout_toEndOf="@id/play_pause_btn"
+            android:layout_marginRight="30dp"
+            />
+
+        <ImageView
+            android:id="@+id/loop"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/norepeat"
+            android:layout_toEndOf="@id/next_btn"
             />
 
     </RelativeLayout>
